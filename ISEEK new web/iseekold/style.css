@@ -1,0 +1,199 @@
+@charset "UTF-8";
+/* CSS Document */
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ISEEK</title>
+<style type="text/css">
+
+a:link {text-decoration:none; color:#399;}
+a:visited {
+	text-decoration: none;
+	color: #42ac9c;
+}
+
+#purdue {
+	text-align: left;
+	width: 300px;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #663399;
+}
+a:active {
+	text-decoration: underline;
+	color: #006599;
+}
+
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #42ac9c;
+}
+h2{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #006599;
+}
+h3{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #006599;
+}
+
+a[href^="mailto"] {
+	color: #42ac9c
+}
+
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #006599;
+}
+.textimage {
+	text-align: left;
+	color: #006599;
+	width: 500px;
+	padding-left: 40px;
+	float: inherit;
+}
+body {
+	background-image: url(Images/12-Column-Grid.jpg);
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	background-color: #42AC9C;
+}
+.innerbackground {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-attachment: scroll;
+	background-color: #FFF;
+	background-repeat: repeat-y;
+	width: 1024px;
+	border: thin groove #366;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+#pagelinks {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #42AC9C;
+	text-align: right;
+	padding-left: 30px;
+	padding-right: 45px;
+}
+.logocontainer {
+	text-align: left;
+	padding: 30px;
+}
+.bodycontainer {
+}
+#map {
+}
+#mission {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #42AC9C;
+	text-align: left;
+	padding-left: 40px;
+	width: 640px;
+}
+.plaintextcontainer {
+	padding-left: 40px;
+	color: #00131D;
+	text-align: center;
+	padding-right: 40px;
+	float: center;
+}
+
+#game {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #42AC9C;
+}
+#womenwork {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #00131D;
+	float: left;
+	width: 250px;
+	padding-left: 35px;
+	padding-top: 20px;
+	text-align: left;
+}
+#womenimage {
+	float: left;
+}
+#game {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #00131D;
+	width: 250px;
+	text-align: left;
+	float: left;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 40px;
+}
+.image {
+	width: 150px;
+	float: left;
+}
+#alokimage {
+	float: left;
+	width: 269px;
+	padding-top: 30px;
+	color: #42AC9C;
+	font-size: 14px;
+	text-align: center;
+}
+#aloktext {
+	float: left;
+	color: #00131D;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 40px;
+	padding-right: 40px;
+	width: 630px;
+}
+#mapMap {border-width:0px; outline:none;}
+
+.noborder {
+	outline: none;
+}
+
+.teambiotext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	float: left;
+	width: 500px;
+	padding-left: 30px;
+	height: 220px;
+	color: #00131D;
+}
+
+.bioimage {
+	width: 150px;
+	height: 200px;
+	float: left;
+	margin-top: 20px;
+}
+.biobox {
+	width: 1024px;
+	overflow: auto;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+#gallerycontatiner {
+	overflow: auto;
+	padding-left: 70px;
+	padding-top: 30px;
+	padding-bottom: 70px;
+}
+.floattext {
+	float: left;
+	margin-right: 50px;
+}
+ul {float:left; text-align:left;}
+ </style>
+</head>

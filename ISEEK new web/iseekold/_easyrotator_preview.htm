@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>EasyRotator Preview</title>
+<script language="javascript" type="text/javascript">
+//alert(navigator.userAgent); // temp! e.g.:  Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en) AppleWebKit/531.9 (KHTML, like Gecko) AdobeAIR/2.5
+var expDays = 400;
+var exp = new Date(); 
+exp.setTime(exp.getTime() + (expDays*24*60*60*1000));
+/*function getCookieVal (offset) {  
+	var endstr = document.cookie.indexOf (";", offset);  
+	if (endstr == -1) { endstr = document.cookie.length; }
+	return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) {  
+	var arg = name + "=";  
+	var alen = arg.length;  
+	var clen = document.cookie.length;  
+	var i = 0;  
+	while (i < clen) {    
+		var j = i + alen;    
+		if (document.cookie.substring(i, j) == arg) return getCookieVal (j);    
+		i = document.cookie.indexOf(" ", i) + 1;    
+		if (i == 0) break;   
+	}  
+	return null;
+}
+function SetCookie (name, value) {  
+	var argv = SetCookie.arguments;  
+	var argc = SetCookie.arguments.length;  
+	var expires = (argc > 2) ? argv[2] : null;  
+	var path = (argc > 3) ? argv[3] : null;  
+	var domain = (argc > 4) ? argv[4] : null;  
+	var secure = (argc > 5) ? argv[5] : false;  
+	document.cookie = name + "=" + escape (value) + 
+	((expires == null) ? "" : ("; expires=" + expires.toGMTString())) + 
+	((path == null) ? "" : ("; path=" + path)) +  
+	((domain == null) ? "" : ("; domain=" + domain)) +    
+	((secure == true) ? "; secure" : "");
+}*/
+/*function SetCookie(c_name,value,expiredays)
+{
+var exdate=new Date();
+exdate.setDate(exdate.getDate()+expiredays);
+document.cookie=c_name+ "=" +escape(value)+
+((expiredays==null) ? "" : ";expires="+exdate.toGMTString());
+}
+function GetCookie(c_name)
+{
+if (document.cookie.length>0)
+  {
+  c_start=document.cookie.indexOf(c_name + "=");
+  if (c_start!=-1)
+    { 
+    c_start=c_start + c_name.length+1; 
+    c_end=document.cookie.indexOf(";",c_start);
+    if (c_end==-1) c_end=document.cookie.length;
+    return unescape(document.cookie.substring(c_start,c_end));
+    } 
+  }
+return null; //"";
+}*/
+
+var savedValue = null;
+function restorePageBG()
+{
+	return; // ALL OF THIS IS HANDLED REMOTELY IN AS
+	/*
+	//var savedValue = readPref(); //GetCookie('xfs_preview_color');
+	alert('cookie value: ' + savedValue);
+	if (savedValue == null || savedValue == '')
+		savedValue = '#FFFFFF';
+	//document.bgColor = savedValue;
+	document.body.style.backgroundColor = savedValue;
+	document.getElementById('color_ti').value = savedValue;
+	*/
+}
+function savePageBG()
+{
+	var curValue = document.getElementById('color_ti').value;
+	//document.bgColor = curValue;
+	document.body.style.backgroundColor = curValue;
+	//writePref(curValue); //SetCookie('xfs_preview_color', curValue, 400);// exp);
+}
+//{error_alert_code}
+</script>
+<style type="text/css">
+/*body, html { height: 100%; }*/
+</style>
+</head>
+<body onload="restorePageBG();">
+<div align="center" style="position: absolute; left: 0; right: 0; top: 50px; bottom: 50px;">
+	<!-- Begin DWUser_EasyRotator -->
+<script type="text/javascript" src="http://c520866.r66.cf2.rackcdn.com/1/js/easy_rotator.min.js"></script>
+<div class="dwuserEasyRotator" style="width: 1024px; height: 400px; position:relative; text-align: left;" data-erConfig="{autoplayEnabled:false, lpp:'102-105-108-101-58-47-47-47-85-115-101-114-115-47-115-97-114-97-104-99-114-105-112-101-47-68-111-99-117-109-101-110-116-115-47-69-97-115-121-82-111-116-97-116-111-114-80-114-101-118-105-101-119-47-112-114-101-118-105-101-119-95-115-119-102-115-47', wv:1}" data-erName="iseek" data-erTID="{szb8pd2yfg9362263381931}">
+	<div data-ertype="content" style="display: none;"><ul data-erlabel="Main Category">
+	<li>
+		<img class="main" src="Images/game.png" alt="EMPOWERING THROUGH KNOWLEDGE" />
+		<img class="thumb" src="Images/game.png" />
+		<span class="title">EMPOWERING THROUGH KNOWLEDGE</span>
+		<span class="desc">IS IT POSSIBLE TO TEACH THROUGH MOBILE GAMING?
+		We believe so. With a crowd-sourced gaming platform, we have the ability to teach business skills critical for success on a massive scale.</span>
+	</li>
+	<li>
+		<img class="main" src="Images/weaving.JPG" alt="SAKSHAM" />
+		<img class="thumb" src="Images/weaving.JPG" />
+		<span class="title">SAKSHAM</span>
+		<span class="desc">Project Saksham (empowered in Hindi) is the first international project undertaken by ISEEK.  The project is based in the state of Jharkhand in India, where a large segment of the population lives below the subsistence level. Project Saksham will serve as a brand and a channel through which those associated with ISEEK will be able to sell and market the products they make - supporting their craft and providing them with continual business.</span>
+	</li>
+	<li>
+		<img class="main" src="Images/dotted-map-2.jpg" alt="10+10+10" />
+		<img class="thumb" src="Images/dotted-map-2.jpg" />
+		<span class="title">10+10+10</span>
+		<span class="desc">Our mission is to empower the under-privileged population of the world and "graduate" a minimum of TEN MILLION people in TEN different countries within TEN years
+		Watch this video for more information: https://www.youtube.com/watch?v=zPuPMdI5OEY</span>
+	</li>
+</ul>
+</div>
+	<div data-ertype="layout" data-ertemplateName="NONE" style="">			<div class="erimgMainOneUp" style="position: absolute; left: 0; right: 0; top: 0; bottom: 26px;" data-erConfig="{___numTiles:3, scaleMode:'fillArea', transition:'fade', crossFade:false, imgType:'main', __loopNextButton:false, arrowButtonMode:'rollover', __alwaysPreviousButton:true}">
+				<div class="erimgMain_slides" style="position: absolute; left:0; top:0; bottom:0; right:0;">
+					<div class="erimgMainOneUp_img" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0;"></div>
+				</div>
+				<div class="erimgMain_arrowLeft" style="position:absolute; left: 0; top: 50%; margin-top: -21px;" data-erConfig="{image:'http://easyrotator.s3.amazonaws.com/1/i/rotator/btns/prevnextblack/left_up.png', image2:'http://easyrotator.s3.amazonaws.com/1/i/rotator/btns/prevnextblack/left_over.png'}"></div>
+				<div class="erimgMain_arrowRight" style="position:absolute; right: 0; top: 50%; margin-top: -21px;" data-erConfig="{image:'http://easyrotator.s3.amazonaws.com/1/i/rotator/btns/prevnextblack/right_up.png', image2:'http://easyrotator.s3.amazonaws.com/1/i/rotator/btns/prevnextblack/right_over.png'}"></div>
+				
+			</div>
+			
+			
+			<div style="position: absolute; left: 0; right: 0; bottom: 26px; padding: 10px; font-family: Georgia,'Times New Roman',Times,serif; font-size: 14px; background:#000;background:rgba(0,0,0,0.7);">
+				<span class="erdynamicText" data-erfield="title" style="color: #FFF;"></span>
+				<span class="erdynamicText" data-erfield="desc" style="padding-left: 10px; font-style: italic; color: #80A0A8;"></span>
+			</div>
+			
+			<div class="erdots" style="overflow: hidden; margin: 0; font-size: 14px; font-family: Georgia,'Times New Roman',Times,serif; color: #80A0A8; position: absolute; left:0; right:0; bottom:2px;" data-erConfig="{showText:true}" align="center">
+				<div class="erdots_wrap" style="wasbackground-color: #CFC; float: right;" align="left"> <!-- modify the float on this element to make left/right/none=center aligned. -->
+					<span class="erdots_btn_selected" style="padding-left: 0; width: 20px; height: 20px; display: inline-block; color:#555; text-align: center; vertical-align: middle; line-height: 20px; margin: 0 0px 0 0; cursor: default;">
+						&nbsp;
+					</span>
+					<span class="erdots_btn_normal" style="padding-left: 0; width: 20px; height: 20px; display: inline-block; text-align: center; vertical-align: middle; line-height: 20px; margin: 0 0px 0 0; cursor: pointer;">
+						&nbsp;
+					</span>
+					<span class="erdots_btn_hover" style="padding-left: 0; width: 20px; height: 20px; display: inline-block; color:#555; text-align: center; vertical-align: middle; line-height: 20px; text-decoration: underline; margin: 0 0px 0 0; cursor: pointer;">
+						&nbsp;
+					</span>
+				</div>
+			</div>
+<div class="erabout erFixCSS3" style="color: #FFF; text-align: left; background: #000; background:rgba(0,0,0,0.93); border: 2px solid #FFF; padding: 20px; font: normal 11px/14px Verdana,_sans; width: 300px; border-radius: 10px; display:none;">
+			This <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/" target="_blank">jQuery slider</a> was created with the free <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/" target="_blank">EasyRotator</a> software from DWUser.com.
+			<br /><br />
+            Use WordPress? The free <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/wordpress/" target="_blank">EasyRotator for WordPress</a> plugin lets you create beautiful <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/wordpress/" target="_blank">WordPress sliders</a> in seconds.
+			<br /><br />
+			<a style="color:#FFF;" href="#" class="erabout_ok">OK</a>   
+		</div>
+		<noscript>
+			Rotator powered by <a href="http://www.dwuser.com/easyrotator/">EasyRotator</a>, a free and easy jQuery slider builder from DWUser.com.  Please enable JavaScript to view.
+		</noscript>
+		<script type="text/javascript">/*Avoid IE gzip bug*/(function(b,c,d){try{if(!b[d]){b[d]="temp";var a=c.createElement("script");a.type="text/javascript";a.src="http://easyrotator.s3.amazonaws.com/1/js/nozip/easy_rotator.min.js";c.getElementsByTagName("head")[0].appendChild(a)}}catch(e){alert("EasyRotator fail; contact support.")}})(window,document,"er_$144");</script>
+	
+	</div>
+</div>
+<!-- End DWUser_EasyRotator -->
+</div>
+<div style="position: absolute; bottom: 0; left:50%; margin-left: -160px; width: 320px; background-color: 
+#FFFFFF; border: 1px solid #666666; text-align: center; font-size:12px;" align="center">
+	Hex BG Color: <input type="text" style="width: 100px;" id="color_ti"/><input name="Button" type="button" onclick="savePageBG()" value="Apply" />
+</div>
+</body>
+</html>
