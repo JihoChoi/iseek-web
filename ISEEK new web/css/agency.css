@@ -335,7 +335,7 @@ ul.dropdown-menu { border: none }
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
-    transition: all .3s ease;
+    transition: all .3s ease;*/
     color: #fff;
 }
 .dropdown-menu { box-shadow: none }
