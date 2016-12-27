@@ -196,7 +196,8 @@ fieldset[disabled] .btn-xl.active {
 
 }
 
-.head-section.navbar {
+.navbar {
+/*.head-section.navbar {*/
 
     margin-bottom: 0;
     /*margin-top: -20px;*/
