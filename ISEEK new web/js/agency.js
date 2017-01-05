@@ -23,3 +23,5 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle ul li a:visible').click();
 });
+
+
