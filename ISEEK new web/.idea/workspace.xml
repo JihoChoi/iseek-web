@@ -103,8 +103,8 @@
           <file leaf-file-name="globalengagement.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/globalengagement.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="412">
-                  <caret line="204" column="36" selection-start-line="204" selection-start-column="36" selection-end-line="204" selection-end-column="36" />
+                <state relative-caret-position="607">
+                  <caret line="250" column="48" selection-start-line="250" selection-start-column="48" selection-end-line="250" selection-end-column="48" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -117,10 +117,7 @@
                     <element signature="n#style#0;n#h4#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#h4#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#h4#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <marker date="1484049438000" expanded="true" signature="9118:9244" ph="..." />
-                    <marker date="1484049438000" expanded="true" signature="9307:9322" ph="..." />
-                    <marker date="1484049438000" expanded="true" signature="9426:9441" ph="..." />
-                    <marker date="1484049438000" expanded="false" signature="12665:12682" ph="..." />
+                    <marker date="1484050307000" expanded="false" signature="12665:12682" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -370,7 +367,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.entrepreneurship.html">
+  <component name="RunManager" selected="JavaScript Debug.globalengagement.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ISEEK new web/index.html">
       <method />
     </configuration>
@@ -448,9 +445,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.entrepreneurship.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.conceptsandinnovations.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.globalengagement.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.globalengagement.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.entrepreneurship.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.conceptsandinnovations.html" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.team.html" />
       </list>
@@ -485,12 +482,12 @@
       <workItem from="1482829620937" duration="2569000" />
       <workItem from="1482833533024" duration="599000" />
       <workItem from="1483996302984" duration="1199000" />
-      <workItem from="1484045333396" duration="3965000" />
+      <workItem from="1484045333396" duration="4631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56953000" />
+    <option name="totallyTimeSpent" value="57619000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-157" width="1920" height="1057" extended-state="6" />
@@ -946,8 +943,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/globalengagement.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="204" column="36" selection-start-line="204" selection-start-column="36" selection-end-line="204" selection-end-column="36" />
+        <state relative-caret-position="607">
+          <caret line="250" column="48" selection-start-line="250" selection-start-column="48" selection-end-line="250" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -960,10 +957,7 @@
             <element signature="n#style#0;n#h4#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1484049438000" expanded="true" signature="9118:9244" ph="..." />
-            <marker date="1484049438000" expanded="true" signature="9307:9322" ph="..." />
-            <marker date="1484049438000" expanded="true" signature="9426:9441" ph="..." />
-            <marker date="1484049438000" expanded="false" signature="12665:12682" ph="..." />
+            <marker date="1484050307000" expanded="false" signature="12665:12682" ph="..." />
           </folding>
         </state>
       </provider>
